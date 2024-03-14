@@ -1,0 +1,129 @@
+@media screen and (max-width: 2000px) {
+  .prayer__container {
+    width: 600px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .prayer__details-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px #035f39 solid;
+    color: #fff;
+    background: #09794a;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #home,
+  .section-container {
+    display: block;
+  }
+  /* #home {
+    height: 80vh;
+    margin-bottom: 2rem;
+  } */
+  section {
+    margin: 0 5%;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  .section__pic-container {
+    margin: 0 auto 2rem;
+  }
+  .btn-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 2rem; */
+    margin: 4rem 10rem;
+    margin-bottom: 12rem;
+  }
+  .btn {
+    padding: 15px 35px;
+    width: 500px;
+    font-size: 1.4rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #09794a;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  .btn:last-child {
+    margin-bottom: 4rem;
+  }
+  .prayer__container {
+    width: 600px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .prayer__details-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px #035f39 solid;
+    color: #fff;
+    background: #09794a;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section__pic-container {
+    width: 270px;
+    height: 270px;
+    margin: 0 auto 2rem;
+
+    /* border-radius: 15rem; */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .btn-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 2rem;
+  }
+  .btn {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    width: 270px;
+    border-radius: 5px;
+    border: none;
+    background-color: #09794a;
+    color: #fff;
+  }
+  .prayer__container {
+    /* background-color: red; */
+  }
+  .prayer__details-container {
+    width: 50%;
+    gap: 0.5em;
+    height: 50px;
+    box-shadow: 0 0.1rem 0.2rem rgb(0 0 0/0.5);
+  }
+}

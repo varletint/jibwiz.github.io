@@ -1,0 +1,27 @@
+[
+  {
+    "salat": "Fajr",
+    "time": "05:45",
+    "amPm": "AM"
+  },
+  {
+    "salat": "Azahar",
+    "time": "12:55 ",
+    "amPm": "PM"
+  },
+  {
+    "salat": "Asr",
+    "time": "03:55 ",
+    "amPm": "PM"
+  },
+  {
+    "salat": "Magrib",
+    "time": "06:45 ",
+    "amPm": "PM"
+  },
+  {
+    "salat": "Isha",
+    "time": "08:00 ",
+    "amPm": "PM"
+  }
+]
